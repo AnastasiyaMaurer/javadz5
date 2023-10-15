@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FreelancerServiceTest {
     @Test
-    public void TestCalculateCase1 () {
+    public void TestCalculateCase1() {
         FreelancerService service = new FreelancerService();
         int actual = service.calculate(10_000, 3_000, 20_000);
         int expected = 3;
@@ -16,8 +16,8 @@ class FreelancerServiceTest {
     }
 
     @Test
-    public void TestCalculateCase2 () {
-        FreelancerService service = new FreelancerService ();
+    public void TestCalculateCase2() {
+        FreelancerService service = new FreelancerService();
         int actual = service.calculate(100_000, 60_000, 150_000);
         int expected = 2;
 
